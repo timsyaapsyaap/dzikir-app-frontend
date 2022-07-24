@@ -1,0 +1,16 @@
+# build:
+build
+coverage
+
+# dependencies:
+/node_modules
+
+# next.js:
+/.next/
+/out/
+
+# custom:
+lib/
+pages/_design/
+
+**.json
