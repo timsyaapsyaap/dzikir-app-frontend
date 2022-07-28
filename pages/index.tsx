@@ -6,8 +6,10 @@ import {
   Container,
   Grid,
   GridItem,
+  Hide,
   IconButton,
   Image,
+  Show,
   Tag,
   VStack,
 } from "@chakra-ui/react";
@@ -16,18 +18,18 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <Box my={"3rem"}>
+    <Box mt={"2rem"}>
       <Container maxW={"1440px"}>
-        <Box
-          // bg={"white"}
-          bg={"dzikir.bg"}
-          // h={"336px"}
-          // boxShadow="0px 0px 16px rgba(0, 0, 0, 0.1)"
-          borderRadius={"2rem"}
-          mt={"2rem"}
-          p={"3rem"}
-        >
-          <Box as={"h1"} fontWeight={"bold"} fontSize={"6rem"} lineHeight={1}>
+        <Box bg={"dzikir.bg"} borderRadius={"2rem"} mt={"2rem"} p={"3rem"}>
+          <Box
+            as={"h1"}
+            fontWeight={"bold"}
+            fontSize={{
+              base: "3rem",
+              md: "6rem",
+            }}
+            lineHeight={1}
+          >
             DzikirAPP
             <Box as={"span"}>
               <Tag variant="solid" size={"lg"} bg={"dzikir.green"}>
@@ -41,6 +43,7 @@ const Home: NextPage = () => {
             maxW={"44rem"}
             my={"1rem"}
             color={"text.body"}
+            textAlign={"left"}
             fontWeight={"medium"}
           >
             {`  Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -56,7 +59,44 @@ const Home: NextPage = () => {
             {`"Quote or Tagline Here"`}
           </Button>
         </Box>
-        <Grid templateColumns="repeat(3, 1fr)" gap={2} mt={"2rem"}>
+        <Grid
+          templateColumns={{
+            md: "repeat(3, 1fr)",
+            sm: "repeat(1, 1fr)",
+          }}
+          gap={2}
+          mt={"2rem"}
+        >
+          <Hide above="sm">
+            <GridItem w="100%">
+              <Box
+                position={{
+                  md: "relative",
+                }}
+              >
+                <Box
+                  position={{
+                    md: "absolute",
+                  }}
+                  top={{
+                    md: -309,
+                  }}
+                  left={{
+                    md: -12,
+                  }}
+                >
+                  <Image
+                    width={"500px"}
+                    alt={"Dzikir App"}
+                    src={
+                      "https://ik.imagekit.io/sdafj93nd65/Mobile_cbIkDEKGm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658638310790"
+                    }
+                  />
+                </Box>
+              </Box>
+            </GridItem>
+          </Hide>
+
           <GridItem w="100%">
             <Box
               bg={"dzikir.green"}
@@ -94,7 +134,7 @@ const Home: NextPage = () => {
               </VStack>
             </Box>
           </GridItem>
-          <GridItem w="100%" h="10">
+          <GridItem w="100%">
             <Box
               bg={"dzikir.green"}
               p={"2rem"}
@@ -131,19 +171,35 @@ const Home: NextPage = () => {
               </VStack>
             </Box>
           </GridItem>
-          <GridItem w="100%" h="10">
-            <Box position={"relative"}>
-              <Box position={"absolute"} top={-309} left={-12}>
-                <Image
-                  width={"500px"}
-                  alt={"Dzikir App"}
-                  src={
-                    "https://ik.imagekit.io/sdafj93nd65/Mobile_cbIkDEKGm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658638310790"
-                  }
-                />
+          <Show above="sm">
+            <GridItem w="100%">
+              <Box
+                position={{
+                  md: "relative",
+                }}
+              >
+                <Box
+                  position={{
+                    md: "absolute",
+                  }}
+                  top={{
+                    md: -309,
+                  }}
+                  left={{
+                    md: -12,
+                  }}
+                >
+                  <Image
+                    width={"500px"}
+                    alt={"Dzikir App"}
+                    src={
+                      "https://ik.imagekit.io/sdafj93nd65/Mobile_cbIkDEKGm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658638310790"
+                    }
+                  />
+                </Box>
               </Box>
-            </Box>
-          </GridItem>
+            </GridItem>
+          </Show>
         </Grid>
       </Container>
     </Box>
