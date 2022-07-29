@@ -1,12 +1,13 @@
 import { IconAndroid } from "@/components/atoms/IconAndroid";
 import { IconIos } from "@/components/atoms/IconIos";
+import Footer from "@/components/molecules/Footer";
 import {
   Box,
   Button,
   Container,
   Grid,
   GridItem,
-  Hide,
+  HStack,
   IconButton,
   Image,
   Show,
@@ -67,7 +68,7 @@ const Home: NextPage = () => {
           gap={2}
           mt={"2rem"}
         >
-          <Hide above="sm">
+          <Show below="md">
             <GridItem w="100%">
               <Box
                 position={{
@@ -95,7 +96,7 @@ const Home: NextPage = () => {
                 </Box>
               </Box>
             </GridItem>
-          </Hide>
+          </Show>
 
           <GridItem w="100%">
             <Box
@@ -201,6 +202,9 @@ const Home: NextPage = () => {
             </GridItem>
           </Show>
         </Grid>
+        <HStack justifyContent={"center"}>
+          <Footer />
+        </HStack>
       </Container>
     </Box>
   );
