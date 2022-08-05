@@ -1,7 +1,9 @@
-import "../styles/globals.css";
+import Head from "next/head";
 import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
+
+import "../styles/globals.css";
 
 // 2. Call `extendTheme` and pass your custom values
 const theme = extendTheme({
@@ -26,6 +28,14 @@ const theme = extendTheme({
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
+      <Head>
+        <title>Dzikir App | Aplikasi Dzikir dan Tasbih</title>
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        />
+      </Head>
+
       <Component {...pageProps} />
     </ChakraProvider>
   );

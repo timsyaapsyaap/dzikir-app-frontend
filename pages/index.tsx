@@ -44,20 +44,17 @@ const Home: NextPage = () => {
             maxW={"44rem"}
             my={"1rem"}
             color={"text.body"}
-            textAlign={"left"}
+            textAlign={"justify"}
             fontWeight={"medium"}
           >
-            {`  Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.`}
+            {`Dzikir App adalah sebuah aplikasi yang digunakan untuk mengajak teman-teman untuk terus berdzikir. Di dalam aplikasi ini, teman-teman dapat membuat target tasbih dan menghitungnya. Lalu, teman-teman juga dapat melakukan dzikir pagi dan petang dengan bantuan aplikasi ini. Tentunya juga dilengkapi dengan doa sehari-hari. Teman-teman juga dapat melihat jadwal sholat dan membaca Al-Quran di aplikasi ini. Dan yang paling menarik dari aplikasi ini adalah aplikasi ini bebas iklan. Selamat menggunakan aplikasi ini, teman-teman. Jazakumullahu khairan.`}
           </Box>
           <Button
             bg={"dzikir.accentbg"}
             color={"dzikir.green"}
             fontWeight={"medium"}
           >
-            {`"Quote or Tagline Here"`}
+            {`"Maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu." (QS. Al-Baqarah:152)`}
           </Button>
         </Box>
         <Grid
