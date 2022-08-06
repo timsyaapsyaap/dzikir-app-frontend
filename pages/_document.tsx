@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
           />
           <meta name="msapplication-navbutton-color" content="#26A2B2" />
           <meta name="msapplication-TileColor" content="#26A2B2" />
-          <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
+          <meta name="msapplication-TileImage" content="icon-144.png" />
           <meta name="msapplication-config" content="browserconfig.xml" />
           <meta name="application-name" content="Dzikir App" />
           <meta name="msapplication-tooltip" content="Tooltip Text" />
@@ -35,6 +35,7 @@ export default class MyDocument extends Document {
           <meta name="layoutmode" content="fitscreen/standard" />
           <meta name="imagemode" content="force" />
           <meta name="screen-orientation" content="portrait" />
+          <link rel="manifest" href="/manifest.json" />
           <link rel="icon" href="/favicon.ico" />
           <link
             href="/favicon-16.png"
@@ -75,16 +76,15 @@ export default class MyDocument extends Document {
             rel="apple-touch-startup-image"
           />
           <link href="/icon.svg" rel="mask-icon" color="#26A2B2" />
-          <link href="/icon-192x192.png" rel="icon" sizes="192x192" />
-          <link href="/icon-128x128.png" rel="icon" sizes="128x128" />
+          <link href="/images/icons/icon-192.png" rel="icon" sizes="192x192" />
+          <link href="/images/icons/icon-128.png" rel="icon" sizes="128x128" />
           <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
           <link
             href="/icon-52x52.png"
             rel="apple-touch-icon-precomposed"
             sizes="57x57"
           />
-          <link href="/icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
-          <link rel="manifest" href="/manifest.json" />
+          <link href="/icon-72.png" rel="apple-touch-icon" sizes="72x72" />
         </Head>
 
         <body>

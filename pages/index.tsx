@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   return (
     <Box mt={"2rem"}>
       <Container maxW={"1440px"}>
-        <Box bg={"dzikir.bg"} borderRadius={"2rem"} mt={"2rem"} p={"3rem"}>
+        <Box bg={"dzikir.bg"} borderRadius={"2rem"} mt={"2rem"} p={"2.5rem"}>
           <Box
             as={"h1"}
             fontWeight={"bold"}
@@ -41,18 +41,18 @@ const Home: NextPage = () => {
           <Box
             as="p"
             fontSize={"1rem"}
-            maxW={"44rem"}
+            maxW={"52rem"}
             my={"1rem"}
             color={"text.body"}
             textAlign={"justify"}
-            fontWeight={"medium"}
+            fontWeight={"normal"}
           >
-            {`Dzikir App adalah sebuah aplikasi yang digunakan untuk mengajak teman-teman untuk terus berdzikir. Di dalam aplikasi ini, teman-teman dapat membuat target tasbih dan menghitungnya. Lalu, teman-teman juga dapat melakukan dzikir pagi dan petang dengan bantuan aplikasi ini. Tentunya juga dilengkapi dengan doa sehari-hari. Teman-teman juga dapat melihat jadwal sholat dan membaca Al-Quran di aplikasi ini. Dan yang paling menarik dari aplikasi ini adalah aplikasi ini bebas iklan. Selamat menggunakan aplikasi ini, teman-teman. Jazakumullahu khairan.`}
+            {`Merupakan sebuah aplikasi yang digunakan untuk mengajak teman-teman untuk terus berdzikir. Di dalam aplikasi ini, teman-teman dapat membuat target tasbih dan menghitungnya. Lalu, teman-teman juga dapat melakukan dzikir pagi dan petang dengan bantuan aplikasi ini. Tentunya juga dilengkapi dengan doa sehari-hari. Teman-teman juga dapat melihat jadwal sholat dan membaca Al-Quran di aplikasi ini. Dan yang paling menarik dari aplikasi ini adalah aplikasi ini bebas iklan. Selamat menggunakan aplikasi ini, teman-teman. Jazakumullahu khairan.`}
           </Box>
           <Button
             bg={"dzikir.accentbg"}
             color={"dzikir.green"}
-            fontWeight={"medium"}
+            fontWeight={"bold"}
           >
             {`"Maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu." (QS. Al-Baqarah:152)`}
           </Button>
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
                     width={"500px"}
                     alt={"Dzikir App"}
                     src={
-                      "https://ik.imagekit.io/sdafj93nd65/Mobile_cbIkDEKGm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658638310790"
+                      "https://ik.imagekit.io/sdafj93nd65/Mobile_e8j8IusvT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659749856251"
                     }
                   />
                 </Box>
@@ -191,7 +191,7 @@ const Home: NextPage = () => {
                     width={"500px"}
                     alt={"Dzikir App"}
                     src={
-                      "https://ik.imagekit.io/sdafj93nd65/Mobile_cbIkDEKGm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658638310790"
+                      "https://ik.imagekit.io/sdafj93nd65/Mobile_e8j8IusvT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659749856251"
                     }
                   />
                 </Box>
