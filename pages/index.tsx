@@ -49,13 +49,19 @@ const Home: NextPage = () => {
           >
             {`Merupakan sebuah aplikasi yang digunakan untuk mengajak teman-teman untuk terus berdzikir. Di dalam aplikasi ini, teman-teman dapat membuat target tasbih dan menghitungnya. Lalu, teman-teman juga dapat melakukan dzikir pagi dan petang dengan bantuan aplikasi ini. Tentunya juga dilengkapi dengan doa sehari-hari. Teman-teman juga dapat melihat jadwal sholat dan membaca Al-Quran di aplikasi ini. Dan yang paling menarik dari aplikasi ini adalah aplikasi ini bebas iklan. Selamat menggunakan aplikasi ini, teman-teman. Jazakumullahu khairan.`}
           </Box>
-          <Button
+          <Box
             bg={"dzikir.accentbg"}
+            p={"0.5rem"}
             color={"dzikir.green"}
             fontWeight={"bold"}
+            borderRadius={"0.5rem"}
+            maxW={{
+              base: "30rem",
+              md: "40rem",
+            }}
           >
             {`"Maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu." (QS. Al-Baqarah:152)`}
-          </Button>
+          </Box>
         </Box>
         <Grid
           templateColumns={{
