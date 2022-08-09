@@ -11,6 +11,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import Link from "next/link";
 import React, { ReactElement } from "react";
 import { IoMail } from "react-icons/io5";
 
@@ -33,7 +34,9 @@ const Feature = ({ text, icon, iconBg }: FeatureProps) => {
       >
         {icon}
       </Flex>
-      <Text fontWeight={600}>{text}</Text>
+      <Text fontWeight={600}>
+        <Link href={`mailto:${text}`}>{text}</Link>
+      </Text>
     </Stack>
   );
 };
