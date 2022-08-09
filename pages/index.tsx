@@ -93,7 +93,7 @@ const Home: NextPage = () => {
               bg={"dzikir.accentbg"}
               p={"0.5rem"}
               color={"dzikir.green"}
-              fontWeight={"bold"}
+              fontWeight={{ base: "medium", md: "bold" }}
               borderRadius={"0.5rem"}
               maxW={{
                 base: "30rem",
@@ -261,7 +261,7 @@ const Home: NextPage = () => {
               </GridItem>
             </Show>
           </Grid>
-          <HStack justifyContent={"center"}>
+          <HStack justifyContent={"center"} width={"full"} mt={"3rem"}>
             <Footer />
           </HStack>
         </Container>
