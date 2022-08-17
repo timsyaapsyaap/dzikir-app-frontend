@@ -14,14 +14,19 @@ export default function Footer() {
           </Box>{" "}
           All rights reserved.
         </Text>
-        <Button
-          size="lg"
-          bg={"dzikir.green"}
-          _hover={{ bg: "dzikir.green" }}
-          color={"white"}
-        >
-          <Link href={"/support"}>Contact Support</Link>
-        </Button>
+        <HStack spacing={"2rem"}>
+          <Button
+            size="lg"
+            bg={"dzikir.green"}
+            _hover={{ bg: "dzikir.green" }}
+            color={"white"}
+          >
+            <Link href={"/support"}>Contact Support</Link>
+          </Button>
+          <Box fontWeight={"bold"} color={"dzikir.green"}>
+            <Link href={"/privacypolicy"}>Privacy Policy</Link>
+          </Box>
+        </HStack>
         {/* <Box
           color={"dzikir.green"}
           textAlign={{ base: "center", md: "left" }}
