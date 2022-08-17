@@ -18,12 +18,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.bg-gradient{
-  background-color:hsla(174,93%,47%,1);
-background-image:
-radial-gradient(at 40% 20%, hsla(76,68%,88%,1) 0px, transparent 50%),
-radial-gradient(at 80% 0%, hsla(189,65%,74%,1) 0px, transparent 50%),
-radial-gradient(at 0% 50%, hsla(164,100%,93%,1) 0px, transparent 50%),
-radial-gradient(at 80% 50%, hsla(339,0%,100%,1) 0px, transparent 50%),
-radial-gradient(at 0% 100%, hsla(216,100%,77%,1) 0px, transparent 50%);
+.bg-gradient {
+  background-color: hsla(174, 93%, 47%, 1);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(76, 68%, 88%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(189, 65%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(164, 100%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(339, 0%, 100%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(216, 100%, 77%, 1) 0px, transparent 50%);
 }
