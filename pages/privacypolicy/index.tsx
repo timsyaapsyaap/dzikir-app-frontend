@@ -50,14 +50,14 @@ export default function PrivacyPolicy() {
               </HStack>
               <Box as="p">
                 Kebijakan Privasi Berikut ini adalah kebijakan privasi Dzikir
-                App. Dzikir App merupakan produk yang debut oleh Fahmi Alfareza,
-                Ahmad Aji Santoso, dan Achmad Fatkharrofiqi. Kebijakan Privasi
-                ini menjelaskan bagaimana kami mengumpulkan, menggunakan,
-                menyingkapkan, memproses dan melindungi informasi Data Pribadi
-                yang Anda sebagai Pengguna. Di aplikasi kami, Data Pribadi
-                seseorang tidak dikumpulkan. Dzikir App dapat malakukan revisi
-                atau perubahan Kebijakan Privasi ini yang disesuaikan dengan
-                situasi hukum, atau atas dasar pengumpulan dan praktik
+                App. Dzikir App merupakan aplikasi yang dibuat oleh Fahmi
+                Alfareza, Ahmad Aji Santoso, dan Achmad Fatkharrofiqi. Kebijakan
+                Privasi ini menjelaskan bagaimana kami mengumpulkan,
+                menggunakan, menyingkapkan, memproses dan melindungi informasi
+                Data Pribadi Anda sebagai Pengguna. Di aplikasi kami, Data
+                Pribadi seseorang tidak dikumpulkan. Dzikir App dapat malakukan
+                revisi atau perubahan Kebijakan Privasi ini yang disesuaikan
+                dengan situasi hukum, atau atas dasar pengumpulan dan praktik
                 penggunaan Data Pribadi, fitur aplikasi kami, atau kemajuan
                 dalam teknologi. Bila terjadi perubahan tersebut, maka akan
                 dimuat di dalam Kebijakan Privasi ini berikut tanggal berlaku
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
               <PrivacyPolicyContent
                 title={"Aktifitas Pengumpulan Data"}
                 description={
-                  "Saat ini, kami tidak mengumpulkan Data Pribadi Anda saat menggunakan Aplikasi. Data Pribadi tersebut tidak terbatas pada nama Anda, identifikasi pengguna Dzikir App dan kredensial login, alamat, nomor telepon, alamat e-mail, nama produk, lokasi pelaksanaan layanan produk dan/atau lama layanan. Kami juga tidak mengumpulkan informasi non-pribadi yang teridentifikasi (yang tidak dapat digunakan untuk mengidentifikasi Anda), termasuk alamat protokol internet (“IP”) Anda, data lokasi geografis, jenis sistem pengoperasian, preferensi pencarian, begitu pula data umum lainnya terkait penggunaan Internet. Kami hanya meminta persetujuan Anda untuk mengizinkan lokasi Anda saat menggunakan aplikasi dan itu hanya opsional serta kami tidak akan menyimpan data lokasi Anda berada. Jikapun tidak diizinkan aplikasi tetap berjalan dengan semestinya."
+                  "Saat ini, kami tidak mengumpulkan Data Pribadi Anda saat menggunakan Aplikasi. Data Pribadi tersebut tidak terbatas pada nama Anda, identifikasi pengguna Dzikir App dan kredensial login, alamat, nomor telepon, alamat e-mail, nama produk, lokasi pelaksanaan layanan produk dan/atau lama layanan. Kami juga tidak mengumpulkan informasi non-pribadi yang teridentifikasi (yang tidak dapat digunakan untuk mengidentifikasi Anda), termasuk alamat protokol internet (“IP”) Anda, data lokasi geografis, jenis sistem pengoperasian, preferensi pencarian, begitu pula data umum lainnya terkait penggunaan Internet. Kami hanya meminta persetujuan Anda untuk mengizinkan lokasi Anda saat menggunakan aplikasi dan itu hanya opsional serta kami tidak akan menyimpan data lokasi Anda berada. Jikapun tidak diizinkan mengakses lokasi, aplikasi tetap berjalan dengan semestinya."
                 }
               />
               <PrivacyPolicyContent
