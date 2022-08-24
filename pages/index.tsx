@@ -171,7 +171,7 @@ const Home: NextPage = () => {
                     Or
                   </Box>
                   <Box width={"full"}>
-                    <Link href={"/#"}>
+                    <Link href={DATA_APP_ANDROID.appUrl}>
                       <IconButton
                         width={"full"}
                         aria-label="Android App Download "
@@ -204,7 +204,7 @@ const Home: NextPage = () => {
                   <Box>
                     <Image
                       alt={"Barcode"}
-                      src={DATA_APP_ANDROID.barcodeImage}
+                      src={DATA_APP_IOS.barcodeImage}
                       borderRadius={"1rem"}
                     />
                   </Box>
@@ -216,7 +216,7 @@ const Home: NextPage = () => {
                     Or
                   </Box>
                   <Box width={"full"}>
-                    <Link href={"/#"}>
+                    <Link href={DATA_APP_IOS.appUrl}>
                       <IconButton
                         width={"full"}
                         aria-label="Ios App Download"
@@ -272,13 +272,15 @@ const Home: NextPage = () => {
 
 const DATA_APP_ANDROID = {
   barcodeImage:
-    "https://ik.imagekit.io/sdafj93nd65/ihr_qr_code_ohne_logo_MpmqqTIBN.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658637303671",
-  appUrl: "https://dzikirapp.com",
+    "https://ik.imagekit.io/sdafj93nd65/playstore_S8a4ea8W4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661344052114",
+  appUrl:
+    " https://play.google.com/store/apps/details?id=com.fahmialfareza.dzikirapp",
 };
-// const DATA_APP_IOS = {
-//   barcodeImage:
-//     "https://ik.imagekit.io/sdafj93nd65/ihr_qr_code_ohne_logo_MpmqqTIBN.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658637303671",
-//   appUrl: "https://dzikirapp.com",
-// };
+const DATA_APP_IOS = {
+  barcodeImage:
+    "https://ik.imagekit.io/sdafj93nd65/appstore_wmEU4FhJd.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661344052117",
+  appUrl:
+    "https://apps.apple.com/id/app/dzikir-app-tasbih-digital/id1638489103",
+};
 
 export default Home;
