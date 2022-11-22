@@ -75,7 +75,7 @@ export default function SplitWithImage() {
               <Feature
                 icon={<Icon as={IoMail} color={"dzikir.green"} w={5} h={5} />}
                 iconBg={"dzikir.accentbg"}
-                text={"fahmialfareza@dzikirapp.com"}
+                text={"admin@dzikirapp.com"}
               />
             </Stack>
           </Stack>

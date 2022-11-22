@@ -34,7 +34,7 @@ export default function Footer() {
         >
           Contact Support :{" "}
           <Box as={"span"} fontWeight={"medium"}>
-            fahmialfareza@dzikirapp.com
+            admin@dzikirapp.com
           </Box>
         </Box> */}
       </HStack>
