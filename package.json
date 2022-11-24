@@ -23,6 +23,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@vercel/analytics": "^0.1.5",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "framer-motion": "^7.2.1",

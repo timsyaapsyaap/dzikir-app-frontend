@@ -2,6 +2,7 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
+import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/globals.css";
 
@@ -37,6 +38,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <Component {...pageProps} />
+
+      <Analytics />
     </ChakraProvider>
   );
 }
